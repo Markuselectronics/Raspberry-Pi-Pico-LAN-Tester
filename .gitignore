@@ -1,0 +1,15 @@
+# Build output
+build/
+*.elf
+*.bin
+*.map
+*.dis
+*.hex
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak
