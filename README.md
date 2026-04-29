@@ -75,8 +75,11 @@ The complete step-by-step guide is available on Instructables:
 
 ## 3D Printed Case
 
-Printables link coming soon.
+The 3D printed enclosure is available on Printables:
 
+<a href="https://www.printables.com/model/1705220-raspberry-pi-pico-lan-tester">
+  <img src="https://img.shields.io/badge/Printables-Download%20Case%20Files-orange?style=for-the-badge" alt="Printables Case Files">
+</a>
 ---
 
 ## Notes
