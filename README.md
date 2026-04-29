@@ -1,13 +1,29 @@
+<div align="center">
+
 # Raspberry Pi Pico LAN Tester
 
-Portable LAN tester based on a Raspberry Pi Pico, W5500 Ethernet controller, SSD1306 OLED display and LiPo battery charging.
+### Portable Ethernet diagnostic tool with `W5500`, `OLED`, battery charging and a custom PCB
 
-This repository contains the firmware and KiCad hardware files for the project.
+<img src="docs/overview.png" alt="Raspberry Pi Pico LAN Tester" width="750">
+
+</div>
+
+---
+
+## Overview
+
+This is a compact handheld LAN tester based on a **Raspberry Pi Pico**, a **W5500 Ethernet controller**, an **SSD1306 OLED display** and **LiPo battery charging**.
+
+It can quickly check whether an Ethernet port is actually working. The tester checks the physical link, requests an IP address with DHCP, shows IP / gateway / DNS information and performs a simple internet connectivity test.
+
+The full build guide is published on Instructables.
+
+---
 
 ## Main Features
 
-- W5500 Ethernet over SPI
-- SSD1306 OLED display
+- `W5500` Ethernet controller over SPI
+- `SSD1306` 128x64 OLED display
 - One-button LAN test
 - Link, DHCP and internet check
 - IP / Gateway / DNS display
@@ -15,34 +31,38 @@ This repository contains the firmware and KiCad hardware files for the project.
 - Custom PCB with Raspberry Pi Pico
 - 3D printed enclosure
 
-## Files
+---
 
-The main project folder is:
+## Project Files
 
 ```text
 LANTester/
 ├── Code/
 └── KiCad/
+
 Code contains the Raspberry Pi Pico firmware.
 KiCad contains the schematic, PCB and manufacturing files.
 
-Full Build Guide
-
-The complete step-by-step build guide is available on Instructables:
-
-INSTRUCTABLES-LINK-HERE
-
-3D Printed Case
-
-The 3D printed case files are available on Printables:
-
-PRINTABLES-LINK-HERE
-
 Flashing
 
-Use the ready-built UF2 file if included.
+If the ready-built LANTester.uf2 file is included, flashing is simple:
 
 Hold BOOTSEL on the Raspberry Pi Pico.
 Plug it into USB.
-Copy the .uf2 file to the Pico drive.
+Copy LANTester.uf2 to the Pico drive.
 The Pico reboots and starts the firmware.
+
+No special programmer is needed.
+
+Full Build Guide
+
+Instructables: INSTRUCTABLES-LINK-HERE
+
+3D Printed Case
+
+Printables: PRINTABLES-LINK-HERE
+
+Notes
+
+This repository contains the firmware and hardware files for the project.
+Photos, build steps and assembly instructions are documented in the Instructables guide.
