@@ -6,12 +6,6 @@
 
 <img src="docs/overview.png" alt="Raspberry Pi Pico LAN Tester" width="750">
 
-<br>
-
-<a href="https://www.instructables.com/Portable-Raspberry-Pi-Pico-LAN-Tester/">
-  <img src="https://img.shields.io/badge/Instructables-Full%20Build%20Guide-orange?style=for-the-badge" alt="Instructables Build Guide">
-</a>
-
 </div>
 
 ---
@@ -67,19 +61,16 @@ No special programmer is needed.
 
 ## Full Build Guide
 
-The complete step-by-step guide is available on Instructables:
-
-[https://www.instructables.com/Portable-Raspberry-Pi-Pico-LAN-Tester/](https://www.instructables.com/Portable-Raspberry-Pi-Pico-LAN-Tester/)
+Instructables:  
+https://www.instructables.com/Portable-Raspberry-Pi-Pico-LAN-Tester/
 
 ---
 
 ## 3D Printed Case
 
-The 3D printed enclosure is available on Printables:
+Printables:  
+https://www.printables.com/model/1705220-raspberry-pi-pico-lan-tester
 
-<a href="https://www.printables.com/model/1705220-raspberry-pi-pico-lan-tester">
-  <img src="https://img.shields.io/badge/Printables-Download%20Case%20Files-orange?style=for-the-badge" alt="Printables Case Files">
-</a>
 ---
 
 ## Notes
